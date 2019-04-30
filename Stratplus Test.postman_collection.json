@@ -1,0 +1,62 @@
+{
+	"id": "47b15f1e-333b-d1af-f49d-629aacc502f6",
+	"name": "Stratplus Test",
+	"description": "",
+	"order": [
+		"27aa3e7a-4b03-23ed-30ca-6d7fcdf812a4",
+		"0d8114e8-c8b4-7f3e-28f2-29324c44f9e9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1556648337790,
+	"owner": "6708917",
+	"public": false,
+	"requests": [
+		{
+			"id": "0d8114e8-c8b4-7f3e-28f2-29324c44f9e9",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/camel-rest-sql/login/findUser",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1556648936804,
+			"name": "http://localhost:8080/camel-rest-sql/login/findUser",
+			"description": "{\n  \"userId\": \"ALEXIS\",\n  \"password\": \"Alexis124\",\n}",
+			"collectionId": "47b15f1e-333b-d1af-f49d-629aacc502f6",
+			"responses": [],
+			"rawModeData": "{\n  \"userId\": \"ALEXIS\",\n  \"password\": \"Alexis124\",\n  \"confirmPassword\": \"Alexis1234\"\n}"
+		},
+		{
+			"id": "27aa3e7a-4b03-23ed-30ca-6d7fcdf812a4",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/camel-rest-sql/register/newUser",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "47b15f1e-333b-d1af-f49d-629aacc502f6",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/camel-rest-sql/register/newUser",
+			"description": "{\n  \"userId\": \"ALEXIS\",\n  \"password\": \"Alexis124\",\n  \"confirmPassword\": \"Alexis1234\"\n}",
+			"descriptionFormat": "html",
+			"time": 1556648929450,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"userId\": \"ALEXIS\",\n  \"password\": \"Alexis1234\",\n  \"confirmPassword\": \"Alexis1234\"\n}"
+		}
+	]
+}
