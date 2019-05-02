@@ -31,7 +31,7 @@ Ejemplo de Solicitud:
 
 {
   "userId": "ALEXIS",
-  "password": "Alexis1234",
+  "password": "Alexis1234"
 }
 
 http://localhost:8080/camel-rest-sql/login/findUser
