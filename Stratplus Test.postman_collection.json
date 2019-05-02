@@ -27,12 +27,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1556648936804,
+			"time": 1556818470279,
 			"name": "http://localhost:8080/camel-rest-sql/login/findUser",
-			"description": "{\n  \"userId\": \"ALEXIS\",\n  \"password\": \"Alexis124\",\n}",
+			"description": "{\n  \"userId\": \"ALEXIS\",\n  \"password\": \"Alexis124\"\n}",
 			"collectionId": "47b15f1e-333b-d1af-f49d-629aacc502f6",
 			"responses": [],
-			"rawModeData": "{\n  \"userId\": \"ALEXIS\",\n  \"password\": \"Alexis124\",\n  \"confirmPassword\": \"Alexis1234\"\n}"
+			"rawModeData": "{\n  \"userId\": \"ALEXIS\",\n  \"password\": \"Alexis124\"\n}"
 		},
 		{
 			"id": "27aa3e7a-4b03-23ed-30ca-6d7fcdf812a4",
@@ -40,23 +40,21 @@
 			"headerData": [],
 			"url": "http://localhost:8080/camel-rest-sql/register/newUser",
 			"queryParams": [],
+			"preRequestScript": null,
 			"pathVariables": {},
 			"pathVariableData": [],
-			"preRequestScript": null,
 			"method": "POST",
-			"collectionId": "47b15f1e-333b-d1af-f49d-629aacc502f6",
 			"data": [],
 			"dataMode": "raw",
-			"name": "http://localhost:8080/camel-rest-sql/register/newUser",
-			"description": "{\n  \"userId\": \"ALEXIS\",\n  \"password\": \"Alexis124\",\n  \"confirmPassword\": \"Alexis1234\"\n}",
-			"descriptionFormat": "html",
-			"time": 1556648929450,
-			"version": 2,
-			"responses": [],
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"rawModeData": "{\n  \"userId\": \"ALEXIS\",\n  \"password\": \"Alexis1234\",\n  \"confirmPassword\": \"Alexis1234\"\n}"
+			"time": 1556818460586,
+			"name": "http://localhost:8080/camel-rest-sql/register/newUser",
+			"description": "{\n  \"userId\": \"ALEXIS\",\n  \"password\": \"Alexis124\",\n  \"confirmPassword\": \"Alexis1234\"\n}",
+			"collectionId": "47b15f1e-333b-d1af-f49d-629aacc502f6",
+			"responses": [],
+			"rawModeData": "{\n  \"userId\": \"ALEXIS\",\n  \"password\": \"Alexis1234\"\n}"
 		}
 	]
 }
